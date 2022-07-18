@@ -1,0 +1,119 @@
+body {
+    color: #dea057;
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* ID SELECTORS */
+
+#title {
+    background-color: #2C3639;
+     color: #DCD7C9;
+    text-align: center;
+    padding: 3% 15%;
+    background-image: url(../images/titleBG.png);
+    background-repeat: no-repeat;
+}
+
+#features {
+    text-align: center;
+    padding: 3% 15%;
+    margin: 5%;
+}
+
+#footer {
+    background-color: #2C3639;
+    text-align: center;
+    padding: 1% 2%;
+}
+
+
+/* CLASS SELECTORS */
+
+
+/* TITLE SECTION */
+/* .navbar-toggler-icon {
+    color: #dea057;
+} */
+.title-bg {
+    position: absolute;
+}
+
+.title-text {
+    padding: 3% 15%;
+}
+
+.bio {
+    font-size: 5rem;
+}
+
+.nav-item {
+    margin: 3%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+}
+
+.title-bg {
+    width: 50%;
+}
+
+.download-button {
+    margin: 1%;
+}
+
+/* FEATURE SECTION */
+
+.fa-solid {
+    color: #2C3639;
+    font-size: 10rem;
+    margin: 1%;
+}
+
+.feature-text {
+    font-family: 'Oswald', sans-serif;
+}
+
+.description {
+    font-size: 1.5rem;
+}
+
+/* .fa-solid:hover {
+    color: #dea057;
+} */
+
+.feature-heading {
+    font-size: 2.2rem;
+    color: #dea057;
+}
+
+@media (max-width: 992px) {
+
+    #title {
+        text-align: center;
+        background-color: #2C3639;
+        background-image: url(../images/try.png);
+        background-repeat: no-repeat;
+        /* position: absolute;
+        left: 10%; */
+        color: #DCD7C9;
+        /* padding: 3% 15%; */
+        margin-bottom: 10%;
+    }
+
+    .bio {
+        font-size: 3rem;
+    }
+
+    .title-text {
+        padding: 10% 20%;
+    }
+    
+}
+
+/* FOOTER SECTION */
+.social-icons {
+    margin: 2%;
+    color: #dea057;
+}
+
